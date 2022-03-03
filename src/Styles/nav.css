@@ -1,0 +1,51 @@
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #7000DE;
+    width: 100%;
+}
+
+.container-input-icon{
+    background: white;
+    border: none;
+    border-radius: 20px;
+    height: 45px;
+    position: relative;
+    padding: 0 17px;
+}
+
+.navigation input{
+    width: 250px;
+    height: 40px;
+    border: none;
+    margin: 2px;
+}
+
+.navigation input {
+   outline: none;
+  }
+
+  .navigation div p {
+    margin-top: 1px;
+    font-size: 15px;
+    color: white;
+   }
+ 
+
+.icon1{
+    color: #7000DE;
+    font-size: 25px;
+    margin-right: 8px;
+}
+
+.section-icons{
+    display: flex;
+}
+
+
+.icon-nav{
+    color: white;
+    font-size: 25px;
+}
+
