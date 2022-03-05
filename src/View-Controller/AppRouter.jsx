@@ -2,8 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Inicio } from '../Components/Inicio';
 import { Tienda } from '../Components/Tienda';
-import { Carrito } from '../Components/Carrito';
-import { Pedidos } from '../Components/Pedidos';
+import Tools from '../Components/Tools';
 
 
 export const AppRouter = () => {
@@ -13,8 +12,7 @@ export const AppRouter = () => {
         <Routes>
             <Route exact path="/" element={<Inicio />  } />
             <Route path="/tienda" element={ <Tienda /> } />
-            <Route path="/carrito" element={ <Carrito /> } />
-            <Route path="/pedidos" element={ <Pedidos /> } />
+            <Route path="/tools" element={ <Tools /> } />
         </Routes>
     </Router>
 </>

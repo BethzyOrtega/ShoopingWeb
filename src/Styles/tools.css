@@ -1,0 +1,117 @@
+.modal {
+    position: fixed;
+    z-index: 1; /* Sit on top */
+    padding-top: 35vh; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /*Fallback color*/
+    background-color: rgba(0,0,0,0.4); /*Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+      display: flex;
+      flex-direction: column;
+      background-color: #fefefe;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 40%;
+      text-align: center;
+      border-radius: 15px;
+      box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+      align-items: center;
+  }
+
+  .modal-content input{
+      width: 80%;
+      margin: 5px;
+     
+  }
+
+  .containerTable{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+  }
+
+  table {
+    width: 80%;
+    /* border: 1px solid #000; */
+    
+ }
+ th{
+    background-color: #f5d2d2;
+ }
+ td{
+    background-color: #f8eeee;
+ }
+ th, td {
+    width: 25%;
+    text-align: center;
+    /* border: 1px solid #000; */
+ }
+
+ .delete{
+    background-color: rgb(238, 44, 44);
+    border: 0;
+    border-radius: 2px;
+    height: 22px;
+    width: 62px;
+    cursor: pointer;
+    margin: 4px;
+ }
+
+ .update{
+    background: rgb(238, 238, 59);
+    border: 0;
+    border-radius: 2px;
+    height: 22px;
+    width: 70px;
+    cursor: pointer;
+    margin: 4px;
+ }
+
+ .btnUpdate{
+
+    background: rgb(238, 238, 59);
+    border: 0;
+    border-radius: 2px;
+    height: 22px;
+    width: 70px;
+    cursor: pointer;
+    margin-right: 6px;
+
+ }
+
+ .btnCancelar{
+    background: rgb(243, 62, 62);
+    border: 0;
+    border-radius: 2px;
+    height: 22px;
+    width: 70px;
+    cursor: pointer;
+    margin-left: 6px;
+
+ }
+
+ .btnSearch{
+   background:#7000DE;
+   border: 0;
+   border-radius: 2px;
+   height: 22px;
+   width: 70px;
+   cursor: pointer;
+   margin-left: 6px;
+   color: white;
+   font-weight: bold;
+ }
+
+ .inputSearch{
+   text-transform: capitalize;
+ }

@@ -1,0 +1,102 @@
+.container-all{
+    /* display: flex;
+    padding: 30px 40px;
+    justify-content: space-between; */
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 1rem;
+    padding: 30px;
+}
+
+.card-product{
+    width: 200px;
+    /* width: 200px;
+    height: 360px;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 2px 3px 20px 1px;
+    text-align: center;
+
+    display:inline-block;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center; */
+
+    border-radius: 15px;
+    box-shadow: rgb(100 100 111 / 20%) 2px 3px 20px 1px;
+    text-align: center;
+    display: flex;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* text-align: center; */
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.card-product div{
+    width: 100%;
+    height: 40%;
+}
+
+.card-product p{
+    font-weight: bold;
+}
+
+.card-product img{
+
+   width: 120px;
+   height: 100%;
+   object-fit: cover;
+
+}
+
+.card-product button{
+    /* background-color: #7000DE ; */
+    color: white;
+    border-radius: 3px;
+    border: 0;
+    height: 25px;
+    width: 115px;
+    margin-top: 8px;
+
+}
+
+.btnVerDetalle{
+background: #7000DE;
+}
+
+.btnAddCarrito{
+    background: rgb(199, 199, 51);
+}
+
+.container-carrito{
+    border-color: #b271f3;
+  border-width: 2px;
+  border-style: dotted;
+    position: absolute;
+    z-index: 100;
+    right: 0;
+    background: #f1e2ff;
+    padding: 7px;
+    display:inline-block;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+
+.lblProduct{
+    display: inline-flex;
+    width: 120px;
+}
+
+.lblPrecio{
+
+    display: inline-flex;
+    width: 70px;
+
+}
+
+
+
